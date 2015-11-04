@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LibTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/lib_theme_accent</item>
+        <item name="colorPrimary">@color/lib_theme_primary</item>
+        <item name="colorPrimaryDark">@color/lib_theme_primary_dark</item>
+        <item name="lib_actionBarIconColor">@color/lib_text_light</item>
+        <item name="lib_actionBarInsetStart">@dimen/lib_keyline_1</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="LibTheme" parent="LibTheme.Base" />
+
+    <style name="LibActionBarThemeOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/lib_text_light</item>
+        <item name="actionMenuTextColor">@color/lib_text_light</item>
+        <item name="colorControlNormal">?lib_actionBarIconColor</item>
+        <item name="colorControlHighlight">#66ffffff</item>
+    </style>
+
+    <style name="LibActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/lib_text_light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="LibBaseParentText">
+        <item name="android:textColor">@color/lib_text_light</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:layout_alignWithParentIfMissing">true</item>
+    </style>
+
+    <style name="LibTextJoke" parent="@style/LibBaseParentText">
+        <item name="android:textSize">@dimen/lib_text_size_joke</item>
+        <item name="android:autoLink">web|email</item>
+    </style>
+
+</resources>

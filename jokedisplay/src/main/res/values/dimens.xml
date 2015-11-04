@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lib_keyline_1">16dp</dimen>
+    <dimen name="lib_keyline_1_double">32dp</dimen>
+    <dimen name="lib_keyline_1_half">8dp</dimen>
+
+    <dimen name="lib_text_size_joke">24sp</dimen>
+</resources>

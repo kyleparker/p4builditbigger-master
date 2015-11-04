@@ -1,0 +1,26 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/theme_primary">
+
+    <include layout="@layout/toolbar"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cow"
+        android:layout_margin="@dimen/keyline_1_double"
+        android:paddingTop="@dimen/keyline_1_double"/>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.udacity.gradle.builditbigger.free.MainActivityFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_main"
+        android:layout_marginTop="?actionBarSize"/>
+
+</FrameLayout>

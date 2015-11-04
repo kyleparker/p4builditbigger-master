@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lib_keyline_1">24dp</dimen>
+    <dimen name="lib_keyline_1_half">12dp</dimen>
+</resources>
+

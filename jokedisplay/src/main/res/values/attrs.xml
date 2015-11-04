@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseTheme">
+        <attr name="lib_actionBarIconColor" format="color" />
+        <attr name="lib_actionBarInsetStart" format="dimension" />
+    </declare-styleable>
+</resources>
